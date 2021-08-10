@@ -11,7 +11,7 @@ public class Gym {
 
 	private static void createUser() {
 		for (int i = 0; i < 10; i++) {
-			User u1 = new User();
+			User u1 = new User("Shahid",123456789L,(byte)19);
 			u1.setName("Shahid" + i);
 			u1.setAge((byte)(19*i));
 			users.add(u1);

@@ -8,6 +8,16 @@ public class User {
 	public void workout() {
 		System.out.println("im working all day");
 	}
+	
+	
+	public User(String name, Long mobileNumber, byte age) {
+		super();
+		this.name = name;
+		this.mobileNumber = mobileNumber;
+		this.age = age;
+	}
+
+
 	public String getName() {
 		return name;
 	}
