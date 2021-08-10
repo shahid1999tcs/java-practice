@@ -23,7 +23,7 @@ class User1 {// super class
 	}
 }
 
-class Employee1 extends User1 { // IS-A relationship = inheritance, sub-class
+class Employee1 extends User1 { // IS-A relationship is called inheritance, sub-class
 	@Override
 	public void work() {
 		super.work();

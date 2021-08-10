@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayDemo {
 	public static void main(String[] args) {
 		enhanchedForLoop();
-		//arrayDemo();
+		// arrayDemo();
 	}
 
 	private static void enhanchedForLoop() {
@@ -23,8 +23,8 @@ public class ArrayDemo {
 		numbers[0] = 3;
 		numbers[4] = 1;
 		Arrays.sort(numbers, 0, numbers.length);
-		for (int i = 0; i < numbers.length; i++) {
-			System.out.println(numbers[i]);
+		for (int count = 0; count < numbers.length; count++) {
+			System.out.println(numbers[count]);
 		}
 	}
 }
