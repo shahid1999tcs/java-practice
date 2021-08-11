@@ -12,8 +12,8 @@ public class Ticket {
 }
 
 class IlleagalTicket extends Ticket{
-	public final void sell(float price) {
-		
-	}
+//	public final void sell(float price) {
+//		
+//	}
 	
 }
